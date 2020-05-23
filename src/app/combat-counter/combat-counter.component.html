@@ -1,0 +1,8 @@
+<div>
+    <span>
+        <input [value]="counterName">
+        <button (click)="decrementCounter()">-</button>
+        <input [value]="count" (change)="count=$event.target.value">
+        <button (click)="incrementCounter()">+</button>
+    </span>
+</div>

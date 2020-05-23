@@ -1,5 +1,7 @@
 # TorTools
 
+TorTools es una aplicación que permite simplificar varias de las tareas que Game Master y jugadores llevan a cabo con frecuencia en una partida de The One Ring RPG.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
 ## Development server
