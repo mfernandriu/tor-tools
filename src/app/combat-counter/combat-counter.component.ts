@@ -14,6 +14,7 @@ export class CombatCounterComponent implements OnInit {
   armour: number = 3
   ad: number = 5
   ap: number = 3
+  position: string = "open"
 
   decrementCounter() {
     this.count = Number(this.count)
