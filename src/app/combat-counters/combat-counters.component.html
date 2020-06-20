@@ -1,5 +1,17 @@
 <div>
     <h2>Combat counters</h2>
-    <span><button (click)="addCombatCounter()">Add combat counter</button></span>
+    <div class="lineBlock">
+        <button (click)="addCombatCounter()">Add combat counter</button>
+    </div>
+    <div class="lineBlock">
+        <span class="counterFieldIndex">Character </span>
+        <span class="counterFieldIndex">Resistance</span>
+        <span class="counterFieldIndex">Damage</span>
+        <span class="counterFieldIndex">Parry</span>
+        <span class="counterFieldIndex">Armour</span>
+        <span class="counterFieldIndex">AD</span>
+        <span class="counterFieldIndex">AP</span>
+        <span class="counterFieldIndex">Position</span>
+    </div>
     <ng-template combat-counter-host></ng-template>
 </div>

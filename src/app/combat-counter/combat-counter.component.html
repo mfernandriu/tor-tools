@@ -1,8 +1,31 @@
 <div>
-    <span>
-        <input [value]="counterName">
-        <button (click)="decrementCounter()">-</button>
-        <input [value]="count" (change)="count=$event.target.value">
-        <button (click)="incrementCounter()">+</button>
+    <span class="combatCounterField">
+        <input class="combatCounterHolder" [value]="counterName">
+    </span>
+    <span class="combatCounterField">
+        <span class="combatCounterButton">
+            <button (click)="decrementCounter()">-</button>
+        </span>
+        <span class="combatCounterText">
+            <input [value]="count" (change)="count=$event.target.value">
+        </span>
+        <span class="combatCounterButton">
+            <button (click)="incrementCounter()">+</button>
+        </span>
+    </span>
+    <span class="combatCounterField">
+        <input class="combatCounterHolder" [value]="damage">
+    </span>
+    <span class="combatCounterField">
+        <input class="combatCounterHolder" [value]="parry">
+    </span>
+    <span class="combatCounterField">
+        <input class="combatCounterHolder" [value]="armour">
+    </span>
+    <span class="combatCounterField">
+        <input class="combatCounterHolder" [value]="ad">
+    </span>
+    <span class="combatCounterField">
+        <input class="combatCounterHolder" [value]="ap">
     </span>
 </div>

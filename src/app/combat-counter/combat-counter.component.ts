@@ -9,7 +9,12 @@ export class CombatCounterComponent implements OnInit {
 
   counterName: string = "character_name"
   @Input() count: number = 20;
-  
+  damage: number = 3
+  parry: number = 3
+  armour: number = 3
+  ad: number = 5
+  ap: number = 3
+
   decrementCounter() {
     this.count = Number(this.count)
     this.count -= 1

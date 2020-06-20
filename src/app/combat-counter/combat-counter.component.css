@@ -1,0 +1,18 @@
+.combatCounterField {
+    display: inline-block;
+    width: 13%;
+}
+
+.combatCounterButton {
+    display: inline-block;
+    width: 10%
+}
+
+.combatCounterText {
+    display: inline-block;
+    width: 80%
+}
+
+.combatCounterHolder {
+    width: 100%;
+}

@@ -1,0 +1,10 @@
+.counterFieldIndex {
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+}
+
+.lineBlock {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
